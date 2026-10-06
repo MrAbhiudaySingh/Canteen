@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains local database password)
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
