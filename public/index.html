@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canteen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar" id="topbar" hidden>
+    <a class="brand" href="#/">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="12" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="13" cy="13" r="7" fill="currentColor" opacity=".18"/><path d="M6 13h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>Canteen</span>
+    </a>
+    <nav class="nav" id="nav"></nav>
+    <div class="who">
+      <span id="whoName"></span>
+      <button class="btn-link" id="logoutBtn">Log out</button>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal"></dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
